@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form </title>
+    <link rel="stylesheet" href="forms.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="" id="loginemail" required />
+                <label>Password</label>
+                <input type="password" placeholder="" id="loginpassword" required />
+
+                <input class="btn" onclick="signin()" type="submit" value="Login">
+            </form>
+
+            <p class="para-2">
+                Not have an account? <a href="signup.html">Sign Up Here</a>
+            </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

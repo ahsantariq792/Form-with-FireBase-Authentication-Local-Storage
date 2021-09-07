@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="forms.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="signup-box">
+            <h1>Sign Up</h1>
+            <h4>Customer Sign-up Form</h4>
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="" id="name" required/>
+
+                <label>Email</label>
+                <input type="email" placeholder="" id="email" required/>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="" required/>
+
+                <label>Password</label>
+                <input type="password" placeholder="" id="password" required/>
+
+                <label>Confirm Password</label>
+                <input type="password" placeholder="" required/>
+
+                <input class="btn" onclick="signup()" type="submit" value="Sign-up">
+                
+            </form>
+
+            <p>
+                By clicking the Sign Up button,you agree to our <br />
+                <a href="#"></b><b>Terms and Condition</a> </b>and <b><a href="#">Policy Privacy</a></b>
+            </p>
+
+            <p class="para-2">
+                Already have an account? <a href="login.html">Login here</a>
+            </p>
+        </div>
+        
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
